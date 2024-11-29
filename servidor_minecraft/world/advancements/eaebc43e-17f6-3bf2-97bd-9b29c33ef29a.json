@@ -137,6 +137,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magenta_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "undergarden:recipes/decorations/smogstem_torch_ditchbulb": {
     "criteria": {
       "has_stick": "2024-11-26 02:59:30 +0000"
@@ -176,6 +182,12 @@
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2024-11-27 23:50:11 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/black_pearl": {
+    "criteria": {
+      "black_pearl": "2024-11-29 02:15:11 +0000"
     },
     "done": true
   },
@@ -359,6 +371,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/ancient_debris_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_aspen_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -527,6 +545,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2024-11-26 02:59:44 +0000"
@@ -632,6 +656,12 @@
   "extcaves:recipes/lavastone_stairs_from_lavastone_stonecutting": {
     "criteria": {
       "has_item": "2024-11-28 00:00:14 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/quartz_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -782,6 +812,12 @@
   "extcaves:caves/mushroom_shinyshroom": {
     "criteria": {
       "get_mushroom": "2024-11-27 23:53:17 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/iron_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -1182,6 +1218,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/envi_willow_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -1479,6 +1521,12 @@
   "slimier-slimes:recipes/slimier-slimes/pink_slime_ball": {
     "criteria": {
       "has_jelly": "2024-11-27 23:51:52 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/end_stone_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -1841,9 +1889,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_gray_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_lime_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -1856,6 +1916,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2024-11-27 23:20:47 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/diamond_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -1895,6 +1961,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purple_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/vampirism/vampire/altar_infusion": {
     "criteria": {
       "has_gold": "2024-11-26 03:50:26 +0000"
@@ -1910,6 +1982,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2024-11-26 03:54:36 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/netherrack_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -2102,6 +2180,12 @@
   "smallships:recipes/lotr_holly_war_galley": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -2388,6 +2472,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/coal_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "evolved_rpg:evolved_rpg_root": {
     "criteria": {
       "evolved_rpg_root": "2024-11-27 23:12:38 +0000"
@@ -2397,6 +2487,12 @@
   "ironchest:recipes/ironchest/chests/diamond_crystal_chest": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -2481,6 +2577,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2024-11-26 03:44:25 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/emerald_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -2595,6 +2697,12 @@
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2024-11-28 00:42:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -2892,6 +3000,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/redstone_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_fir_drakkar": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -2955,6 +3069,12 @@
   "securitycraft:recipes/securitycraft/claymore": {
     "criteria": {
       "has_redstone": "2024-11-27 23:50:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/gilded_blackstone_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -3084,6 +3204,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/nether_gold_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2024-11-28 00:00:18 +0000"
@@ -3111,6 +3237,12 @@
   "extcaves:recipes/lavastone_stairs": {
     "criteria": {
       "has_item": "2024-11-28 00:00:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -3648,6 +3780,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pink_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/vampirism/hunter/crucifix": {
     "criteria": {
       "stick": "2024-11-26 02:59:30 +0000"
@@ -3711,6 +3849,12 @@
   "mcwdoors:recipes/spruce/spruce_classic_door": {
     "criteria": {
       "has_planks": "2024-11-27 23:50:11 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "black_pearl": "2024-11-29 02:15:11 +0000"
     },
     "done": true
   },
@@ -4284,6 +4428,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/gold_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_green_oak_drakkar": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -4329,6 +4479,12 @@
   "connectedglass:recipes/connectedglass/borderless_glass1": {
     "criteria": {
       "recipe_condition": "2024-11-26 03:56:29 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/vampirism/vampire/coffin_white": {
+    "criteria": {
+      "has_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -4571,6 +4727,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/furnace_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2024-11-26 03:13:48 +0000"
@@ -4580,6 +4742,12 @@
   "aquaculture:recipes/tools/iron_fillet_knife": {
     "criteria": {
       "has_items": "2024-11-26 03:13:48 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/gravel_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -4861,6 +5029,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/stone_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/bop_fir_drakkar": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -4889,6 +5063,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2024-11-29 00:16:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -5174,6 +5354,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/sand_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/vampirism/cursed_spruce_pressure_place": {
     "criteria": {
       "has_planks": "2024-11-26 03:18:42 +0000"
@@ -5249,6 +5435,12 @@
   "smallships:recipes/lotr_cypress_brigg": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -5399,6 +5591,12 @@
   "smallships:recipes/bop_palm_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/gold_nugget_from_accessory_smelting": {
+    "criteria": {
+      "has_amulet": "2024-11-29 02:15:02 +0000"
     },
     "done": true
   },
@@ -5755,6 +5953,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_holly_galley": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -5938,6 +6142,12 @@
   "sworddisplay:recipes/sworddisplay/sword_display": {
     "criteria": {
       "has_core": "2024-11-26 03:13:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -6231,6 +6441,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/smoker_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/bop_willow_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -6424,6 +6640,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/wire_cutters": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/tools/stone_fillet_knife": {
     "criteria": {
       "has_items": "2024-11-27 23:20:47 +0000"
@@ -6562,6 +6784,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/lapis_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2024-11-27 23:51:52 +0000"
@@ -6571,6 +6799,12 @@
   "smallships:recipes/bop_fir_rowboat": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -6700,6 +6934,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
     "criteria": {
       "has_mossy_stone_bricks": "2024-11-27 23:45:14 +0000"
@@ -6766,6 +7006,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_copper": {
     "criteria": {
       "has_ore_copper": "2024-11-28 02:31:49 +0000"
@@ -6787,6 +7033,12 @@
   "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2024-11-28 00:00:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool": {
+    "criteria": {
+      "has_white_wool": "2024-11-29 02:12:30 +0000"
     },
     "done": true
   },
@@ -7098,6 +7350,12 @@
     },
     "done": true
   },
+  "vampirism:recipes/misc/gold_nugget_from_accessory_blasting": {
+    "criteria": {
+      "has_amulet": "2024-11-29 02:15:02 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/bop_cherry_war_galley": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -7215,6 +7473,12 @@
   "slimier-slimes:recipes/misc/pink_dye": {
     "criteria": {
       "has_jelly": "2024-11-27 23:51:52 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/cobblestone_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },
@@ -7488,6 +7752,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/blast_furnace_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/bop_hellbark_galley": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -7521,6 +7791,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2024-11-28 00:02:54 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/remote_access_mine": {
+    "criteria": {
+      "has_mine": "2024-11-29 02:17:12 +0000"
     },
     "done": true
   },

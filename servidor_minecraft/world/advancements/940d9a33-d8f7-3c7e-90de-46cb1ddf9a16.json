@@ -389,6 +389,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/gray_slimy_netherrack_button": {
+    "criteria": {
+      "has_gray_slimy_netherrack": "2024-11-29 02:14:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2024-11-25 01:19:14 +0000"
@@ -500,6 +506,12 @@
   "mcwfurnitures:recipes/spruce/spruce_pult_1": {
     "criteria": {
       "has_planks": "2024-11-25 03:38:18 +0000"
+    },
+    "done": true
+  },
+  "slimier-slimes:recipes/slimier-slimes/gray_slimy_netherrack_pressure_plate": {
+    "criteria": {
+      "has_gray_slimy_netherrack": "2024-11-29 02:14:14 +0000"
     },
     "done": true
   },
@@ -2137,6 +2149,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/gray_slimy_netherrack_slab_from_gray_slimy_netherrack_stonecutting": {
+    "criteria": {
+      "has_gray_slimy_netherrack": "2024-11-29 02:14:14 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/envi_wisteria_brigg": {
     "criteria": {
       "in_water": "2024-11-25 00:47:44 +0000"
@@ -3255,6 +3273,12 @@
   "smallships:recipes/acacia_war_galley": {
     "criteria": {
       "in_water": "2024-11-25 00:47:44 +0000"
+    },
+    "done": true
+  },
+  "slimier-slimes:recipes/slimier-slimes/gray_slimy_netherrack_wall_from_gray_slimy_netherrack_stonecutting": {
+    "criteria": {
+      "has_gray_slimy_netherrack": "2024-11-29 02:14:14 +0000"
     },
     "done": true
   },
@@ -4431,6 +4455,12 @@
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2024-11-27 03:09:40 +0000"
+    },
+    "done": true
+  },
+  "slimier-slimes:recipes/slimier-slimes/gray_slimy_netherrack_stairs_from_gray_slimy_netherrack_stonecutting": {
+    "criteria": {
+      "has_gray_slimy_netherrack": "2024-11-29 02:14:14 +0000"
     },
     "done": true
   },
@@ -6757,6 +6787,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/gray_slimy_netherrack_slab": {
+    "criteria": {
+      "has_gray_slimy_netherrack": "2024-11-29 02:14:14 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_mallorn_war_galley": {
     "criteria": {
       "in_water": "2024-11-25 00:47:44 +0000"
@@ -7408,6 +7444,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/gray_slimy_netherrack_stairs": {
+    "criteria": {
+      "has_gray_slimy_netherrack": "2024-11-29 02:14:14 +0000"
+    },
+    "done": true
+  },
   "mcwfurnitures:recipes/warped/warped_pult_4": {
     "criteria": {
       "has_planks": "2024-11-29 00:01:56 +0000"
@@ -7460,6 +7502,12 @@
   "smallships:recipes/bop_fir_brigg": {
     "criteria": {
       "in_water": "2024-11-25 00:47:44 +0000"
+    },
+    "done": true
+  },
+  "slimier-slimes:recipes/slimier-slimes/gray_slimy_netherrack_wall": {
+    "criteria": {
+      "has_gray_slimy_netherrack": "2024-11-29 02:14:14 +0000"
     },
     "done": true
   },
