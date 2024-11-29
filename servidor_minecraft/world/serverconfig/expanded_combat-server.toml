@@ -1,0 +1,259 @@
+
+#Server only settings, mostly things related to Bows. 
+#all options here require minecraft to restart
+[server]
+
+	[server.Arrow_Base_Damage]
+		#The Base Damage for the Iron Arrow
+		#Default value: 3.0
+		#Range: 0.0 ~ 100.0
+		ironArrowBaseDamage = 3.0
+		#The Base Damage for the Diamond Arrow
+		#Default value: 3.75
+		#Range: 0.0 ~ 100.0
+		diamondArrowBaseDamage = 3.75
+		#The Base Damage for the Netherite Arrow
+		#Default value: 4.5
+		#Range: 0.0 ~ 100.0
+		netheriteArrowBaseDamage = 4.5
+
+	[server.Base_bow_power]
+		#bow power for the half iron Bow (gets added to the power enchantment)
+		#Default value: 0
+		#Range: 0 ~ 100
+		halfIronBowPower = 0
+		#bow power for the iron Bow (gets added to the power enchantment)
+		#Default value: 1
+		#Range: 0 ~ 100
+		ironBowPower = 1
+		#bow power for the half Gold Bow (gets added to the power enchantment)
+		#Default value: 0
+		#Range: 0 ~ 100
+		halfGoldBowPower = 0
+		#bow power for the Gold Bow (gets added to the power enchantment)
+		#Default value: 1
+		#Range: 0 ~ 100
+		goldBowPower = 1
+		#bow power for the Diamond Bow (gets added to the power enchantment)
+		#Default value: 2
+		#Range: 0 ~ 100
+		diamondBowPower = 2
+		#bow power for the Netherite Bow (gets added to the power enchantment)
+		#Default value: 2
+		#Range: 0 ~ 100
+		netheriteBowPower = 2
+
+	[server.Gauntlet]
+
+		[server.Gauntlet.Damgage]
+			#Default value: 4.0
+			#Range: 0.0 ~ 100.0
+			netheriteGauntletDamage = 4.0
+			#Default value: 3.0
+			#Range: 0.0 ~ 100.0
+			diamondGauntletDamage = 3.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 100.0
+			goldGauntletDamage = 0.0
+			#Default value: 2.0
+			#Range: 0.0 ~ 100.0
+			ironGauntletDamage = 2.0
+			#Default value: 1.0
+			#Range: 0.0 ~ 100.0
+			leatherGauntletDamage = 1.0
+			#Default value: 2.5
+			#Range: 0.0 ~ 100.0
+			steelGauntletDamage = 2.5
+			#Default value: 2.0
+			#Range: 0.0 ~ 100.0
+			bronzeGauntletDamage = 2.0
+			#Default value: 1.0
+			#Range: 0.0 ~ 100.0
+			silverGauntletDamage = 1.0
+			#Default value: 3.0
+			#Range: 0.0 ~ 100.0
+			leadGauntletDamage = 3.0
+			#Default value: 2.0
+			#Range: 0.0 ~ 100.0
+			nagaGauntletDamage = 2.0
+			#Default value: 2.0
+			#Range: 0.0 ~ 100.0
+			ironwoodGauntletDamage = 2.0
+			#Default value: 4.0
+			#Range: 0.0 ~ 100.0
+			fieryGauntletDamage = 4.0
+			#Default value: 4.0
+			#Range: 0.0 ~ 100.0
+			steeleafGauntletDamage = 4.0
+			#Default value: 3.0
+			#Range: 0.0 ~ 100.0
+			knightlyGauntletDamage = 3.0
+			#Default value: 2.5
+			#Range: 0.0 ~ 100.0
+			yetiGauntletDamage = 2.5
+			#Default value: 2.0
+			#Range: 0.0 ~ 100.0
+			articGauntletDamage = 2.0
+			#Default value: 5.0
+			#Range: 0.0 ~ 100.0
+			enderiteGauntletDamage = 5.0
+
+		[server.Gauntlet.ArmorAmount]
+			#Default value: 3
+			#Range: 0 ~ 100
+			netheriteGauntletArmorAmount = 3
+			#Default value: 3
+			#Range: 0 ~ 100
+			diamondGauntletArmorAmount = 3
+			#Default value: 1
+			#Range: 0 ~ 100
+			goldGauntletArmorAmount = 1
+			#Default value: 2
+			#Range: 0 ~ 100
+			ironGauntletArmorAmount = 2
+			#Default value: 1
+			#Range: 0 ~ 100
+			leatherGauntletArmorAmount = 1
+			#Default value: 2
+			#Range: 0 ~ 100
+			steelGauntletArmorAmount = 2
+			#Default value: 2
+			#Range: 0 ~ 100
+			bronzeGauntletArmorAmount = 2
+			#Default value: 2
+			#Range: 0 ~ 100
+			silverGauntletArmorAmount = 2
+			#Default value: 3
+			#Range: 0 ~ 100
+			leadGauntletArmorAmount = 3
+			#Default value: 3
+			#Range: 0 ~ 100
+			nagaGauntletArmorAmount = 3
+			#Default value: 2
+			#Range: 0 ~ 100
+			ironwoodGauntletArmorAmount = 2
+			#Default value: 4
+			#Range: 0 ~ 100
+			fieryGauntletArmorAmount = 4
+			#Default value: 3
+			#Range: 0 ~ 100
+			steeleafGauntletArmorAmount = 3
+			#Default value: 3
+			#Range: 0 ~ 100
+			knightlyGauntletArmorAmount = 3
+			#Default value: 3
+			#Range: 0 ~ 100
+			yetiGauntletArmorAmount = 3
+			#Default value: 2
+			#Range: 0 ~ 100
+			articGauntletArmorAmount = 2
+			#Default value: 4
+			#Range: 0 ~ 100
+			enderiteGauntletArmorAmount = 4
+
+		[server.Gauntlet.ArmorToughness]
+			#Default value: 3.0
+			#Range: 0.0 ~ 100.0
+			netheriteGauntletArmorToughness = 3.0
+			#Default value: 2.0
+			#Range: 0.0 ~ 100.0
+			diamondGauntletArmorToughness = 2.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 100.0
+			goldGauntletArmorToughness = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 100.0
+			ironGauntletArmorToughness = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 100.0
+			leatherGauntletArmorToughness = 0.0
+			#Default value: 1.0
+			#Range: 0.0 ~ 100.0
+			steelGauntletArmorToughness = 1.0
+			#Default value: 0.5
+			#Range: 0.0 ~ 100.0
+			bronzeGauntletArmorToughness = 0.5
+			#Default value: 0.0
+			#Range: 0.0 ~ 100.0
+			silverGauntletArmorToughness = 0.0
+			#Default value: 1.0
+			#Range: 0.0 ~ 100.0
+			leadGauntletArmorToughness = 1.0
+			#Default value: 0.5
+			#Range: 0.0 ~ 100.0
+			nagaGauntletArmorToughness = 0.5
+			#Default value: 0.0
+			#Range: 0.0 ~ 100.0
+			ironwoodGauntletArmorToughness = 0.0
+			#Default value: 1.5
+			#Range: 0.0 ~ 100.0
+			fieryGauntletArmorToughness = 1.5
+			#Default value: 0.0
+			#Range: 0.0 ~ 100.0
+			steeleafGauntletArmorToughness = 0.0
+			#Default value: 1.0
+			#Range: 0.0 ~ 100.0
+			knightlyGauntletArmorToughness = 1.0
+			#Default value: 3.0
+			#Range: 0.0 ~ 100.0
+			yetiGauntletArmorToughness = 3.0
+			#Default value: 3.0
+			#Range: 0.0 ~ 100.0
+			articGauntletArmorToughness = 3.0
+			#Default value: 4.0
+			#Range: 0.0 ~ 100.0
+			enderiteGauntletArmorToughness = 4.0
+
+		[server.Gauntlet.KnockBackResistance]
+			#Default value: 0.1
+			#Range: 0.0 ~ 10.0
+			netheriteGauntletKnockBackResistance = 0.10000000149011612
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			diamondGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			goldGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			ironGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			leatherGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			steelGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			bronzeGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			silverGauntletKnockBackResistance = 0.0
+			#Default value: 0.5
+			#Range: 0.0 ~ 10.0
+			leadGauntletKnockBackResistance = 0.5
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			nagaGauntletKnockBackResistance = 0.0
+			#Default value: 1.0
+			#Range: 0.0 ~ 10.0
+			ironwoodGauntletKnockBackResistance = 1.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			fieryGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			steeleafGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			knightlyGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			yetiGauntletKnockBackResistance = 0.0
+			#Default value: 0.0
+			#Range: 0.0 ~ 10.0
+			articGauntletKnockBackResistance = 0.0
+			#Default value: 2.5
+			#Range: 0.0 ~ 10.0
+			enderiteGauntletKnockBackResistance = 2.5
+

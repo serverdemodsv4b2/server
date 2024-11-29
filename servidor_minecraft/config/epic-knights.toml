@@ -1,0 +1,11 @@
+
+["Config for Epic Knights Mod!"]
+	#Works only if the game is set to the hard difficulty. If false, equipment will not be overriden by equipping an armor. This is an float. Default value is true.
+	"Override equipment" = true
+	#If true, allows wearing decorations on any type of armor, not only from this mod. This is an boolean. Default value is true.
+	"Decorations for All Armor" = true
+	#Works only if the game is set to the hard difficulty. Affects the chance that mobs will be equipped with some armor and weapons of the mod. This is an float. Default value is 0.5, Maximum value is 1.0.
+	"Put Armor Chance" = 0.5
+	#Works only in game with the difficulty set to hard. This is an boolean. Default value is true.
+	"Put Armor on Mobs" = true
+
