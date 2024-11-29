@@ -6308,6 +6308,12 @@
     },
     "done": true
   },
+  "extcaves:caves/skeleton_warrior": {
+    "criteria": {
+      "get_item": "2024-11-29 02:45:20 +0000"
+    },
+    "done": true
+  },
   "toolbelt:recipes/belt": {
     "criteria": {
       "has_leather": "2024-11-25 00:56:29 +0000"
