@@ -1085,6 +1085,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-11-29 04:10:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2024-11-28 00:03:27 +0000"
@@ -1112,6 +1118,12 @@
   "smallships:recipes/bop_magic_galley": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-11-29 04:05:44 +0000"
     },
     "done": true
   },
@@ -5415,6 +5427,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-11-29 04:10:25 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/bop_fir_drakkar": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -5839,6 +5857,12 @@
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2024-11-28 01:22:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-11-29 04:10:25 +0000"
     },
     "done": true
   },
@@ -6462,6 +6486,12 @@
   "immersiveengineering:recipes/decorations/crafting/torch": {
     "criteria": {
       "has_stick": "2024-11-26 02:59:30 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_meal": {
+    "criteria": {
+      "bestiary": "2024-11-29 04:11:08 +0000"
     },
     "done": true
   },
@@ -7913,6 +7943,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2024-11-27 23:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-11-29 04:03:35 +0000"
     },
     "done": true
   },
