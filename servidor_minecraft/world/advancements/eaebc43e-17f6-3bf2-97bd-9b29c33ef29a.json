@@ -2003,6 +2003,12 @@
     },
     "done": true
   },
+  "infernalexp:recipes/food/cooked_hogchop_campfire": {
+    "criteria": {
+      "has_hogchop": "2024-11-29 02:31:19 +0000"
+    },
+    "done": true
+  },
   "extcaves:recipes/pebble_sedimentstone": {
     "criteria": {
       "has_item": "2024-11-27 23:46:56 +0000"
@@ -2228,6 +2234,12 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2024-11-26 03:08:16 +0000"
+    },
+    "done": true
+  },
+  "infernalexp:recipes/food/cooked_hogchop_smelting": {
+    "criteria": {
+      "has_hogchop": "2024-11-29 02:31:19 +0000"
     },
     "done": true
   },
@@ -4809,6 +4821,7 @@
     "criteria": {
       "minecraft:blaze": "2024-11-29 00:16:45 +0000",
       "minecraft:skeleton": "2024-11-27 23:49:13 +0000",
+      "minecraft:hoglin": "2024-11-29 02:31:18 +0000",
       "minecraft:magma_cube": "2024-11-28 23:57:49 +0000",
       "minecraft:spider": "2024-11-27 23:51:00 +0000",
       "minecraft:phantom": "2024-11-28 02:59:40 +0000",
@@ -7425,6 +7438,12 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2024-11-28 00:03:27 +0000"
+    },
+    "done": true
+  },
+  "infernalexp:recipes/food/cooked_hogchop_smoking": {
+    "criteria": {
+      "has_hogchop": "2024-11-29 02:31:19 +0000"
     },
     "done": true
   },
