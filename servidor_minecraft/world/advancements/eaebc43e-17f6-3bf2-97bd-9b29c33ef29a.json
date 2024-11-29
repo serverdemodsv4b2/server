@@ -377,6 +377,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/secret_jungle_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-29 03:56:11 +0000"
+    },
+    "done": true
+  },
   "mcwfurnitures:recipes/spruce/spruce_pult_2": {
     "criteria": {
       "has_planks": "2024-11-29 02:56:50 +0000"
@@ -434,6 +440,12 @@
   "mcwfurnitures:recipes/spruce/spruce_stool_chair": {
     "criteria": {
       "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_spruce_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-29 03:56:11 +0000"
     },
     "done": true
   },
@@ -1148,6 +1160,12 @@
   "betterendforge:recipes/betterendforge/thallasium_shovel_smithing": {
     "criteria": {
       "has_stick": "2024-11-26 02:59:30 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_warped_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-29 03:56:11 +0000"
     },
     "done": true
   },
@@ -6507,6 +6525,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_egg": {
+    "criteria": {
+      "silver": "2024-11-29 03:54:39 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/bop_umbran_brigg": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -7344,15 +7368,33 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_staff": {
+    "criteria": {
+      "bestiary": "2024-11-29 03:58:23 +0000"
+    },
+    "done": true
+  },
   "mcwdoors:recipes/spruce/spruce_modern_door": {
     "criteria": {
       "has_planks": "2024-11-27 23:50:11 +0000"
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/secret_dark_oak_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-29 03:56:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_sand": "2024-11-26 03:54:36 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_crimson_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-29 03:56:11 +0000"
     },
     "done": true
   },
@@ -7898,6 +7940,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/secret_acacia_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-29 03:56:11 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_holly_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -8252,6 +8300,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/secret_birch_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-29 03:56:11 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/blast_furnace_mine": {
     "criteria": {
       "has_mine": "2024-11-29 02:17:12 +0000"
@@ -8318,6 +8372,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_horn": {
+    "criteria": {
+      "bestiary": "2024-11-29 03:58:23 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/compacting_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-11-27 23:20:43 +0000"
@@ -8333,6 +8393,12 @@
   "smallships:recipes/lotr_cypress_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-29 03:56:11 +0000"
     },
     "done": true
   },
