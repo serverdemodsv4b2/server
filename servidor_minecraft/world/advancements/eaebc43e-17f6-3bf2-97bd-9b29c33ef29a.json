@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/spruce/spruce_barn_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_andesite_with_vanilla_diorite": {
     "criteria": {
       "has_cobblestone": "2024-11-27 23:20:47 +0000"
@@ -371,6 +377,24 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_pult_2": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_pult_3": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_pult_4": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/ancient_debris_mine": {
     "criteria": {
       "has_mine": "2024-11-29 02:17:12 +0000"
@@ -407,6 +431,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_stool_chair": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "mutantbeasts:root": {
     "criteria": {
       "killed_by_something": "2024-11-26 02:43:42 +0000"
@@ -416,6 +446,12 @@
   "securitycraft:recipes/securitycraft/reinforced_red_stained_glass": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_pult_1": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
     },
     "done": true
   },
@@ -599,6 +635,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "mcwfurnitures:recipes/warped/warped_dresser": {
     "criteria": {
       "has_planks": "2024-11-28 23:59:29 +0000"
@@ -767,6 +809,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_covered_desk_right": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "extcaves:caves/mushroom_lumishroom": {
     "criteria": {
       "get_mushroom": "2024-11-27 23:45:25 +0000"
@@ -800,6 +848,12 @@
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2024-11-28 00:00:18 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_chair": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -1158,6 +1212,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_modern_chair": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "slimier-slimes:recipes/misc/lime_dye": {
     "criteria": {
       "has_jelly": "2024-11-27 23:51:52 +0000"
@@ -1248,6 +1308,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/spruce/spruce_beach_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/jungle_war_galley": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -1290,9 +1356,33 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_6": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_5": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_4": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/blasting_upgrade_from_smelting_upgrade": {
     "criteria": {
       "has_smelting_upgrade": "2024-11-25 00:21:13 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_3": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
     },
     "done": true
   },
@@ -1302,9 +1392,27 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_furniture_7": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_furniture_6": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_acacia_fence": {
     "criteria": {
       "has_stick": "2024-11-26 02:59:30 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_furniture_4": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -1314,15 +1422,33 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_furniture_3": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/blackstone_bridge": {
     "criteria": {
       "has_planks": "2024-11-28 01:05:16 +0000"
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_furniture_2": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/stack_upgrade_tier_1": {
     "criteria": {
       "has_upgrade_base": "2024-11-27 23:20:43 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_furniture_1": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
     },
     "done": true
   },
@@ -1620,6 +1746,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/print_cottage": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/plate_gold_hammering": {
     "criteria": {
       "has_gold_ingot": "2024-11-26 03:50:26 +0000"
@@ -1660,6 +1792,12 @@
   "biomesoplenty:recipes/transportation/hellbark_boat": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_covered_desk_left": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
     },
     "done": true
   },
@@ -1732,6 +1870,12 @@
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2024-11-27 23:20:47 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/spruce/spruce_mystic_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -1844,6 +1988,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_modern_desk_left": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/jacaranda_boat": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -1871,9 +2021,21 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_14": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_chestplate": "2024-11-29 00:15:18 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_12": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -1883,9 +2045,21 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_13": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/vampirism/hunter/weapon_table": {
     "criteria": {
       "has_iron_ingot": "2024-11-26 03:13:48 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_11": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -2264,6 +2438,12 @@
   "mcwdoors:recipes/oak/oak_stable_head_door": {
     "criteria": {
       "has_planks": "2024-11-28 00:03:27 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_glass_desk_left": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -2838,6 +3018,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/spruce/spruce_four_panel_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2024-11-26 03:13:48 +0000"
@@ -3024,6 +3210,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_plant_pot_left": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/redstone_mine": {
     "criteria": {
       "has_mine": "2024-11-29 02:17:12 +0000"
@@ -3123,6 +3315,12 @@
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_spruce_planks": "2024-11-27 23:50:11 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_double_desk_right": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
     },
     "done": true
   },
@@ -3504,9 +3702,21 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_11": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_black_stained_glass": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_10": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -3642,6 +3852,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_9": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_beech_drakkar": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -3684,6 +3900,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/spruce/spruce_paper_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2024-11-29 00:16:46 +0000"
@@ -3708,15 +3930,57 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_8": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_5": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_6": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_3": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_4": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/spruce_rail_bridge_powered": {
     "criteria": {
       "has_planks": "2024-11-27 23:50:11 +0000"
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand_2": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_purple_stained_glass": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_striped_chair": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -3789,6 +4053,12 @@
   "mcwdoors:recipes/oak/oak_barn_door": {
     "criteria": {
       "has_planks": "2024-11-28 00:03:27 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_box": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -3915,6 +4185,12 @@
   "mcwtrpdoors:recipes/oak/oak_paper_trapdoor": {
     "criteria": {
       "has_planks": "2024-11-26 02:44:36 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_plant_pot_right": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -4059,6 +4335,12 @@
   "vampirism:recipes/vampirism/dark_spruce_trapdoor": {
     "criteria": {
       "has_planks": "2024-11-26 03:07:41 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_desk_left": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -4482,6 +4764,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/spruce/spruce_barred_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/taser": {
     "criteria": {
       "has_redstone": "2024-11-27 23:50:38 +0000"
@@ -4757,6 +5045,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_glass_desk_right": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2024-11-26 03:13:48 +0000"
@@ -4886,6 +5180,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_box_2": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
@@ -4913,6 +5213,12 @@
   "mcwfurnitures:recipes/warped/warped_glass_desk_left": {
     "criteria": {
       "has_planks": "2024-11-28 23:59:29 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_tool_swapper_upgrade": {
+    "criteria": {
+      "has_the_recipe": "2024-11-29 02:54:37 +0000"
     },
     "done": true
   },
@@ -5163,6 +5469,12 @@
     },
     "done": true
   },
+  "aquamirae:adventure/obtain_shell_horn": {
+    "criteria": {
+      "shell_horn": "2024-11-29 02:59:09 +0000"
+    },
+    "done": true
+  },
   "mcwfurnitures:recipes/oak/oak_furniture_6": {
     "criteria": {
       "has_planks": "2024-11-26 02:44:36 +0000"
@@ -5232,6 +5544,12 @@
   "smallships:recipes/lotr_lairelosse_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-11-29 02:56:51 +0000"
     },
     "done": true
   },
@@ -5481,6 +5799,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_nightstand": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-11-27 23:44:43 +0000"
@@ -5622,6 +5946,12 @@
   "smallships:recipes/bop_palm_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_desk_right": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -6592,6 +6922,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_9": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/acacia_rowboat": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -6601,6 +6937,12 @@
   "smallships:recipes/jungle_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_dresser_7": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -6815,6 +7157,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/spruce/spruce_tropical_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/bop_redwood_cog": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -6860,6 +7208,12 @@
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/deposit_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-11-27 23:20:43 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_pult": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
     },
     "done": true
   },
@@ -6965,9 +7319,27 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_cupboard_9": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_cupboard_7": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "slimier-slimes:recipes/slimier-slimes/yellow_slimy_netherrack_wall": {
     "criteria": {
       "has_yellow_slimy_netherrack": "2024-11-28 01:37:00 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_cupboard_8": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
     },
     "done": true
   },
@@ -7010,6 +7382,18 @@
   "securitycraft:recipes/securitycraft/reinforced_cyan_stained_glass": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_cupboard_5": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_cupboard_6": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -7339,6 +7723,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/spruce/spruce_classic_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/bop_redwood_brigg": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -7477,6 +7867,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_double_desk_left": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "mcwfurnitures:recipes/warped/warped_desk_left": {
     "criteria": {
       "has_planks": "2024-11-28 23:59:29 +0000"
@@ -7555,6 +7951,12 @@
     },
     "done": true
   },
+  "mcwtrpdoors:recipes/spruce/spruce_glass_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2024-11-26 03:13:48 +0000"
@@ -7582,6 +7984,12 @@
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_brick": "2024-11-28 01:59:38 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_modern_desk_right": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
@@ -7681,6 +8089,12 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/spruce/spruce_plate": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2024-11-26 03:13:48 +0000"
@@ -7750,6 +8164,12 @@
   "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
       "has_warped_fungus": "2024-11-29 00:03:29 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce/spruce_dresser": {
+    "criteria": {
+      "has_planks": "2024-11-29 02:56:50 +0000"
     },
     "done": true
   },
