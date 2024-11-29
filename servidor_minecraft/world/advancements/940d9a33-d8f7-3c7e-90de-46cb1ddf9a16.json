@@ -311,6 +311,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/black_slimy_stone_stairs_from_black_slimy_stone_stonecutting": {
+    "criteria": {
+      "has_black_slimy_stone": "2024-11-29 03:49:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/emerald": {
     "criteria": {
       "has_emerald_block": "2024-11-25 03:56:36 +0000"
@@ -1104,6 +1110,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/black_slimy_stone_pressure_plate": {
+    "criteria": {
+      "has_black_slimy_stone": "2024-11-29 03:49:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2024-11-25 00:57:32 +0000"
@@ -1799,6 +1811,12 @@
   "smallships:recipes/bop_magic_cog": {
     "criteria": {
       "in_water": "2024-11-25 00:47:44 +0000"
+    },
+    "done": true
+  },
+  "slimier-slimes:recipes/slimier-slimes/black_slimy_stone_wall": {
+    "criteria": {
+      "has_black_slimy_stone": "2024-11-29 03:49:23 +0000"
     },
     "done": true
   },
@@ -2816,6 +2834,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/black_slimy_stone_wall_from_black_slimy_stone_stonecutting": {
+    "criteria": {
+      "has_black_slimy_stone": "2024-11-29 03:49:23 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/portable_radar": {
     "criteria": {
       "has_redstone": "2024-11-26 03:44:02 +0000"
@@ -3567,6 +3591,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/black_slimy_stone_stairs": {
+    "criteria": {
+      "has_black_slimy_stone": "2024-11-29 03:49:23 +0000"
+    },
+    "done": true
+  },
   "connectedglass:recipes/connectedglass/borderless_glass_purple2": {
     "criteria": {
       "recipe_condition2": "2024-11-28 03:05:01 +0000"
@@ -4011,6 +4041,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/black_slimy_stone_slab_from_black_slimy_stone_stonecutting": {
+    "criteria": {
+      "has_black_slimy_stone": "2024-11-29 03:49:23 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/advanced_pump_upgrade": {
     "criteria": {
       "has_pump_upgrade": "2024-11-26 03:48:00 +0000"
@@ -4171,6 +4207,12 @@
   "slimier-slimes:recipes/slimier-slimes/pink_slime_block": {
     "criteria": {
       "has_slime_ball": "2024-11-25 00:54:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2024-11-29 03:49:48 +0000"
     },
     "done": true
   },
@@ -6531,6 +6573,12 @@
     },
     "done": true
   },
+  "slimier-slimes:recipes/slimier-slimes/black_slimy_stone_slab": {
+    "criteria": {
+      "has_black_slimy_stone": "2024-11-29 03:49:23 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_pear_galley": {
     "criteria": {
       "in_water": "2024-11-25 00:47:44 +0000"
@@ -8184,6 +8232,12 @@
   "vampirism:recipes/vampirism/general/castle_block_dark_stone": {
     "criteria": {
       "has_orchid": "2024-11-25 03:29:47 +0000"
+    },
+    "done": true
+  },
+  "slimier-slimes:recipes/slimier-slimes/black_slimy_stone_button": {
+    "criteria": {
+      "has_black_slimy_stone": "2024-11-29 03:49:23 +0000"
     },
     "done": true
   },
