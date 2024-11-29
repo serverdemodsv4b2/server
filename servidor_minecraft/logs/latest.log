@@ -2192,3 +2192,787 @@
 [29Nov2024 01:50:20.093] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49)
 [29Nov2024 01:50:20.094] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46)
 [29Nov2024 01:50:20.094] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43)
+[29Nov2024 01:50:29.710] [main/INFO] [com.magistuarmory.KnightlyArmory/]: HELLO from Register Block
+[29Nov2024 01:50:49.570] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 1420 ms
+[29Nov2024 01:50:50.050] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: java.io.IOException: Base resource not found: bnv.class
+[29Nov2024 01:50:50.050] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.Patcher.applyPatch(Patcher.java:146)
+[29Nov2024 01:50:50.051] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[29Nov2024 01:50:50.060] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[29Nov2024 01:50:50.060] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:292)
+[29Nov2024 01:50:50.060] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:261)
+[29Nov2024 01:50:50.060] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.transform(OptiFineTransformer.java:172)
+[29Nov2024 01:50:50.061] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[29Nov2024 01:50:50.061] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[29Nov2024 01:50:50.061] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[29Nov2024 01:50:50.061] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[29Nov2024 01:50:50.061] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[29Nov2024 01:50:50.061] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[29Nov2024 01:50:50.061] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[29Nov2024 01:50:50.061] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[29Nov2024 01:50:50.062] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at com.github.alexthe666.iceandfire.recipe.IafRecipeRegistry.createPotion(IafRecipeRegistry.java:202)
+[29Nov2024 01:50:50.062] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at com.github.alexthe666.iceandfire.recipe.IafRecipeRegistry.preInit(IafRecipeRegistry.java:198)
+[29Nov2024 01:50:50.062] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at com.github.alexthe666.iceandfire.item.IafItemRegistry.registerItems(IafItemRegistry.java:380)
+[29Nov2024 01:50:50.062] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.ASMEventHandler_810_IafItemRegistry_registerItems_Register.invoke(.dynamic)
+[29Nov2024 01:50:50.062] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[29Nov2024 01:50:50.062] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[29Nov2024 01:50:50.062] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[29Nov2024 01:50:50.062] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[29Nov2024 01:50:50.063] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[29Nov2024 01:50:50.063] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[29Nov2024 01:50:50.063] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:42)
+[29Nov2024 01:50:50.063] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:26)
+[29Nov2024 01:50:50.063] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:235)
+[29Nov2024 01:50:50.063] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:222)
+[29Nov2024 01:50:50.063] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:188)
+[29Nov2024 01:50:50.063] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:30)
+[29Nov2024 01:50:50.064] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraft.server.Main.main(Main.java:95)
+[29Nov2024 01:50:50.064] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[29Nov2024 01:50:50.064] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[29Nov2024 01:50:50.064] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[29Nov2024 01:50:50.064] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[29Nov2024 01:50:50.064] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37)
+[29Nov2024 01:50:50.064] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[29Nov2024 01:50:50.064] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[29Nov2024 01:50:50.065] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[29Nov2024 01:50:50.065] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[29Nov2024 01:50:50.065] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[29Nov2024 01:50:50.065] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49)
+[29Nov2024 01:50:50.065] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46)
+[29Nov2024 01:50:50.065] [main/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43)
+[29Nov2024 01:50:50.456] [main/INFO] [Spartan Shields/]: Registering Items
+[29Nov2024 01:50:50.457] [main/INFO] [Spartan Shields/]: Registered Items successfully!
+[29Nov2024 01:50:52.437] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `white_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.444] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `orange_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.445] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.445] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.446] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.446] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `lime_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.446] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `pink_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.447] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `gray_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.447] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.448] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cyan_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.448] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `purple_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.449] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blue_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.449] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `brown_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.456] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `green_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.457] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `red_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.457] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `black_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.463] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `oak_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.470] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.471] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `birch_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.471] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.472] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.472] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.473] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crimson_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.473] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `warped_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.474] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `cherry_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.484] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `umbran_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.485] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `fir_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.485] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `dead_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.486] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `magic_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.486] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `palm_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.486] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `redwood_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.487] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `willow_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.487] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `hellbark_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.488] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `jacaranda_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.488] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `biomesoplenty` for name `mahogany_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:52.625] [main/INFO] [TerraForged/]: Registering level types
+[29Nov2024 01:50:53.653] [main/INFO] [Spartan Shields/]: Registering Enchantments
+[29Nov2024 01:50:53.654] [main/INFO] [Spartan Shields/]: Registered Enchantments successfully!
+[29Nov2024 01:50:53.713] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:extrapart, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.714] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:anthermite, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.716] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:mimic, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.717] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:piranha, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.718] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:rogue, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.719] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:slimond, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.720] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:haunter, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.721] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:lordskeleton, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.722] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:deadhound, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.723] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:crow, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.724] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:notehead, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.725] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:winterhunter, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.727] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:pice, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.728] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:leech, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.729] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:pitcher, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.730] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:whirlwind, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.732] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:crawler, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.733] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:deserted, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.734] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:ironslime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.735] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:king, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.736] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:kraken, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.737] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:sun, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.739] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:voidmaster, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.740] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:guard, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.741] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:scientist, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.741] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dungeonsmod:slimewolf, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.876] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:grizzly_bear, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.876] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:roadrunner, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.877] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.877] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent_part, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.877] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gazelle, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.877] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crocodile, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.878] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:fly, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:53.878] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hummingbird, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.024] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:orca, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.034] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:sunbird, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.034] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gorilla, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.035] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crimson_mosquito, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.035] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:rattlesnake, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.035] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:endergrade, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.036] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hammerhead_shark, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.036] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:lobster, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.040] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:komodo_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.041] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:capuchin_monkey, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.042] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_head, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.043] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_body, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.044] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_tail, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.046] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_toad, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.048] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:moose, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.050] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mimicube, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.051] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:raccoon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.051] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:blobfish, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.051] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:seal, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.052] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cockroach, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.053] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:shoebill, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.054] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:elephant, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.059] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:soul_vulture, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.060] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:snow_leopard, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.060] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:spectre, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.061] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crow, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.062] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:alligator_snapping_turtle, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.063] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mungus, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.063] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mantis_shrimp, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.074] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:guster, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.074] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_mosco, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.074] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:straddler, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.075] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:stradpole, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.075] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:emu, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.076] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:platypus, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.085] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:dropbear, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.085] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tasmanian_devil, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.086] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:kangaroo, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.086] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cachalot_whale, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.087] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:leafcutter_ant, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.087] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:enderiophage, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.088] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bald_eagle, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.088] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tiger, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.089] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tarantula_hawk, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.089] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:void_worm, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.089] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:void_worm_part, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.090] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:frilled_shark, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.090] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mimic_octopus, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:54.836] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for conjurer_illager:conjurer, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.053] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for lava_monster:lava_monster, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.508] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:farlander, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.509] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:elder_farlander, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.510] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:wanderer, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.510] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:ender_guardian, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.511] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:looter, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.511] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:rebel, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.511] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:enderminion, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.512] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:mystic_enderminion, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.516] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:mystic_enderman, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.517] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:classic_enderman, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.517] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:fanmade_enderman, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.518] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:ender_golem, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.518] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:titan, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:50:55.566] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:55.567] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:57.081] [main/WARN] [de.teamlapen.vampirism.effects.VampirismNightVisionPotion/]: -------Please ignore the following error!------
+[29Nov2024 01:50:57.082] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `night_vision`, expected `vampirism`. This could be a intended override, but in most cases indicates a broken mod.
+[29Nov2024 01:50:57.082] [main/WARN] [de.teamlapen.vampirism.effects.VampirismNightVisionPotion/]: -----------------------------------------------
+[29Nov2024 01:50:57.947] [main/INFO] [com.dainxt.dungeonsmod.DungeonsMod/]: Register Point of Interest public static net.minecraft.village.PointOfInterestType net.minecraft.village.PointOfInterestType.func_221052_a(net.minecraft.village.PointOfInterestType)
+[29Nov2024 01:50:59.596] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[29Nov2024 01:50:59.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[29Nov2024 01:50:59.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[29Nov2024 01:50:59.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[29Nov2024 01:50:59.597] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[29Nov2024 01:51:00.188] [main/INFO] [TerraForged/]: Registering decorators
+[29Nov2024 01:51:00.273] [main/INFO] [TerraForged/]: Registering features
+[29Nov2024 01:51:02.294] [main/INFO] [ModdingLegacy/structure_gel/Compat/]: Checking for biome dictionary registry methods in other mods.
+[29Nov2024 01:51:02.551] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class org.infernalstudios.infernalexp.entities.ShroomloinEntity from class org.infernalstudios.infernalexp.entities.WarpbeetleEntity
+[29Nov2024 01:51:02.672] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/treechop-common.toml is not correct. Correcting
+[29Nov2024 01:51:02.760] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/extrabows-common.toml is not correct. Correcting
+[29Nov2024 01:51:02.847] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/extrabows-common.toml is not correct. Correcting
+[29Nov2024 01:51:02.898] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/sophisticatedbackpacks-common.toml is not correct. Correcting
+[29Nov2024 01:51:02.914] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/twilightforest-common.toml is not correct. Correcting
+[29Nov2024 01:51:02.983] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/twilightforest-common.toml is not correct. Correcting
+[29Nov2024 01:51:03.042] [main/INFO] [STDOUT/]: [androsa.gaiadimension.registry.ModGaiaConfig:onConfigLoaded:96]: Config Loading
+[29Nov2024 01:51:03.091] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/bettermineshafts-forge-1_16.toml is not correct. Correcting
+[29Nov2024 01:51:03.113] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/artifacts-common.toml is not correct. Correcting
+[29Nov2024 01:51:03.115] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/naturescompass-common.toml is not correct. Correcting
+[29Nov2024 01:51:03.125] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file mowziesmobs-common.toml of type COMMON for modid mowziesmobs
+[29Nov2024 01:51:03.125] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:143)
+[29Nov2024 01:51:03.126] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[29Nov2024 01:51:03.126] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: Caused by: com.electronwill.nightconfig.core.io.ParsingException: Invalid bare key:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    nks
+[29Nov2024 01:51:03.127] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseKey(TableParser.java:175)
+[29Nov2024 01:51:03.127] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:145)
+[29Nov2024 01:51:03.128] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55)
+[29Nov2024 01:51:03.128] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101)
+[29Nov2024 01:51:03.128] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88)
+[29Nov2024 01:51:03.129] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[29Nov2024 01:51:03.129] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[29Nov2024 01:51:03.129] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[29Nov2024 01:51:03.129] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[29Nov2024 01:51:03.129] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[29Nov2024 01:51:03.129] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
+[29Nov2024 01:51:03.129] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:132)
+[29Nov2024 01:51:03.130] [Thread-0/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	... 1 more
+[29Nov2024 01:51:03.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server/servidor_minecraft/config/epic-knights.toml is not correct. Correcting
+[29Nov2024 01:51:03.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Config for Epic Knights Mod!.Put Armor Chance was corrected from 0.5 to its default, 0.5. 
+[29Nov2024 01:51:03.193] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/epic-knights.toml is not correct. Correcting
+[29Nov2024 01:51:03.199] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/mininggadgets-common.toml is not correct. Correcting
+[29Nov2024 01:51:03.217] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: Config set
+[29Nov2024 01:51:03.229] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[29Nov2024 01:51:03.232] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[29Nov2024 01:51:03.233] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[29Nov2024 01:51:03.279] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/server/servidor_minecraft/config/vampirism-common.toml is not correct. Correcting
+[29Nov2024 01:51:03.297] [modloading-worker-1/INFO] [TerraForged/]: Common setup
+[29Nov2024 01:51:03.349] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for doggytalents:dog, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.027] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for goblintraders:goblin_trader, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.027] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for goblintraders:vein_goblin_trader, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.073] [modloading-worker-1/INFO] [com.magistuarmory.KnightlyArmory/]: HELLO FROM PREINIT
+[29Nov2024 01:51:04.073] [modloading-worker-1/INFO] [com.magistuarmory.KnightlyArmory/]: DIRT BLOCK >> minecraft:dirt
+[29Nov2024 01:51:04.074] [modloading-worker-1/INFO] [Dungeon Crawl/]: Common Setup
+[29Nov2024 01:51:04.102] [modloading-worker-1/INFO] [Dungeon Crawl/]: Registering Structure Piece Types
+[29Nov2024 01:51:04.281] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: java.io.IOException: Base resource not found: zs.class
+[29Nov2024 01:51:04.282] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.Patcher.applyPatch(Patcher.java:146)
+[29Nov2024 01:51:04.321] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[29Nov2024 01:51:04.321] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[29Nov2024 01:51:04.321] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:292)
+[29Nov2024 01:51:04.321] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:261)
+[29Nov2024 01:51:04.321] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.transform(OptiFineTransformer.java:172)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[29Nov2024 01:51:04.322] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.getDeclMethod(EventBus.java:83)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.lambda$null$4(EventBus.java:95)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.HashMap$KeySpliterator.tryAdvance(HashMap.java:1642)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+[29Nov2024 01:51:04.323] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+[29Nov2024 01:51:04.324] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+[29Nov2024 01:51:04.324] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+[29Nov2024 01:51:04.324] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[29Nov2024 01:51:04.325] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for inventorypets:anvil_pet_entity, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.325] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for inventorypets:bed_pet_entity, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.325] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for inventorypets:bill_gates_entity, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.325] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for inventorypets:satya_nadella_entity, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.326] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for inventorypets:steve_ballmer_entity, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.326] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for inventorypets:siamese_entity, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.326] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for inventorypets:mini_quantum_blaze_entity, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.326] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for inventorypets:mini_quantum_enderman_entity, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:04.324] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+[29Nov2024 01:51:04.327] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.lambda$registerObject$7(EventBus.java:97)
+[29Nov2024 01:51:04.327] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[29Nov2024 01:51:04.327] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+[29Nov2024 01:51:04.327] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+[29Nov2024 01:51:04.327] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+[29Nov2024 01:51:04.328] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+[29Nov2024 01:51:04.328] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[29Nov2024 01:51:04.328] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[29Nov2024 01:51:04.328] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[29Nov2024 01:51:04.328] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+[29Nov2024 01:51:04.328] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.registerObject(EventBus.java:94)
+[29Nov2024 01:51:04.328] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.register(EventBus.java:120)
+[29Nov2024 01:51:04.328] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at com.teammetallurgy.atum.Atum.setupCommon(Atum.java:67)
+[29Nov2024 01:51:04.329] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[29Nov2024 01:51:04.329] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[29Nov2024 01:51:04.329] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[29Nov2024 01:51:04.329] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[29Nov2024 01:51:04.329] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[29Nov2024 01:51:04.329] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[29Nov2024 01:51:04.329] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[29Nov2024 01:51:04.329] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+[29Nov2024 01:51:04.330] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[29Nov2024 01:51:04.330] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[29Nov2024 01:51:04.330] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[29Nov2024 01:51:04.330] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[29Nov2024 01:51:04.330] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[29Nov2024 01:51:04.392] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[29Nov2024 01:51:04.398] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treechop] Starting version check at https://raw.githubusercontent.com/hammertater/treechop/main/update.json
+[29Nov2024 01:51:04.431] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: java.io.IOException: Base resource not found: cgi.class
+[29Nov2024 01:51:04.432] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.Patcher.applyPatch(Patcher.java:146)
+[29Nov2024 01:51:04.432] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourcePatched(OptiFineTransformer.java:396)
+[29Nov2024 01:51:04.433] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourceStreamPatched(OptiFineTransformer.java:368)
+[29Nov2024 01:51:04.433] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResourceStream(OptiFineTransformer.java:292)
+[29Nov2024 01:51:04.434] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.getOptiFineResource(OptiFineTransformer.java:261)
+[29Nov2024 01:51:04.434] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.transform(OptiFineTransformer.java:172)
+[29Nov2024 01:51:04.439] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at optifine.OptiFineTransformer.transform(OptiFineTransformer.java:1)
+[29Nov2024 01:51:04.440] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41)
+[29Nov2024 01:51:04.440] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179)
+[29Nov2024 01:51:04.440] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:98)
+[29Nov2024 01:51:04.440] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[29Nov2024 01:51:04.440] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:142)
+[29Nov2024 01:51:04.440] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchyFromFile(TransformerClassWriter.java:149)
+[29Nov2024 01:51:04.440] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformerClassWriter.computeHierarchy(TransformerClassWriter.java:112)
+[29Nov2024 01:51:04.441] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformerClassWriter.getSupers(TransformerClassWriter.java:83)
+[29Nov2024 01:51:04.441] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformerClassWriter.getCommonSuperClass(TransformerClassWriter.java:63)
+[29Nov2024 01:51:04.441] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at org.objectweb.asm.SymbolTable.addMergedType(SymbolTable.java:1264)
+[29Nov2024 01:51:04.441] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at org.objectweb.asm.Frame.merge(Frame.java:1311)
+[29Nov2024 01:51:04.441] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at org.objectweb.asm.Frame.merge(Frame.java:1208)
+[29Nov2024 01:51:04.441] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at org.objectweb.asm.MethodWriter.computeAllFrames(MethodWriter.java:1612)
+[29Nov2024 01:51:04.441] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at org.objectweb.asm.MethodWriter.visitMaxs(MethodWriter.java:1548)
+[29Nov2024 01:51:04.442] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:767)
+[29Nov2024 01:51:04.442] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:647)
+[29Nov2024 01:51:04.442] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at org.objectweb.asm.tree.ClassNode.accept(ClassNode.java:468)
+[29Nov2024 01:51:04.442] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:133)
+[29Nov2024 01:51:04.442] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[29Nov2024 01:51:04.442] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[29Nov2024 01:51:04.442] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[29Nov2024 01:51:04.443] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[29Nov2024 01:51:04.443] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+[29Nov2024 01:51:04.443] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+[29Nov2024 01:51:04.443] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2473)
+[29Nov2024 01:51:04.443] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.getDeclMethod(EventBus.java:83)
+[29Nov2024 01:51:04.443] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.lambda$null$4(EventBus.java:95)
+[29Nov2024 01:51:04.444] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+[29Nov2024 01:51:04.444] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.HashMap$KeySpliterator.tryAdvance(HashMap.java:1642)
+[29Nov2024 01:51:04.444] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+[29Nov2024 01:51:04.444] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+[29Nov2024 01:51:04.444] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+[29Nov2024 01:51:04.445] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+[29Nov2024 01:51:04.445] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+[29Nov2024 01:51:04.445] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[29Nov2024 01:51:04.445] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+[29Nov2024 01:51:04.445] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.lambda$registerObject$7(EventBus.java:97)
+[29Nov2024 01:51:04.445] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[29Nov2024 01:51:04.446] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+[29Nov2024 01:51:04.446] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+[29Nov2024 01:51:04.446] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+[29Nov2024 01:51:04.446] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+[29Nov2024 01:51:04.446] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[29Nov2024 01:51:04.446] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[29Nov2024 01:51:04.446] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[29Nov2024 01:51:04.447] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+[29Nov2024 01:51:04.447] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.registerObject(EventBus.java:94)
+[29Nov2024 01:51:04.447] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.register(EventBus.java:120)
+[29Nov2024 01:51:04.447] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at com.teammetallurgy.atum.Atum.setupCommon(Atum.java:67)
+[29Nov2024 01:51:04.447] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[29Nov2024 01:51:04.447] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[29Nov2024 01:51:04.447] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[29Nov2024 01:51:04.448] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[29Nov2024 01:51:04.448] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[29Nov2024 01:51:04.448] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[29Nov2024 01:51:04.464] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[29Nov2024 01:51:04.465] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+[29Nov2024 01:51:04.465] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[29Nov2024 01:51:04.465] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[29Nov2024 01:51:04.465] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[29Nov2024 01:51:04.465] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[29Nov2024 01:51:04.466] [modloading-worker-0/INFO] [STDERR/]: [optifine.OptiFineTransformer:getOptiFineResourcePatched:414]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[29Nov2024 01:51:04.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treechop] Found status: OUTDATED Current: 0.14.3 Target: 0.14.6
+[29Nov2024 01:51:04.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [glasscutter] Starting version check at https://raw.githubusercontent.com/Lothrazar/GlassCutter/trunk/1.16/update.json
+[29Nov2024 01:51:04.482] [modloading-worker-2/INFO] [com.betterfpsdist.BetterfpsdistMod/]: betterfpsdist mod initialized
+[29Nov2024 01:51:04.491] [modloading-worker-2/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[29Nov2024 01:51:04.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [glasscutter] Found status: BETA Current: 1.16.4-2.0.1 Target: null
+[29Nov2024 01:51:04.533] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeonsmod] Starting version check at https://raw.githubusercontent.com/dainxt/DungeonsMod-Issue-Tracker/master/update.json
+[29Nov2024 01:51:04.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeonsmod] Found status: BETA Current: 1.16.3-1.3.20 Target: null
+[29Nov2024 01:51:04.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infernalexp] Starting version check at https://infernalstudios.org/api/mods/infernalexpansion/forge
+[29Nov2024 01:51:04.629] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[29Nov2024 01:51:04.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infernalexp] Found status: AHEAD Current: 2.5.0 Target: null
+[29Nov2024 01:51:04.635] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/percivalalb/DoggyTalents/1.16.x/version.json
+[29Nov2024 01:51:04.630] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[29Nov2024 01:51:04.638] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[29Nov2024 01:51:04.638] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[29Nov2024 01:51:04.639] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[29Nov2024 01:51:04.639] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[29Nov2024 01:51:04.639] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[29Nov2024 01:51:04.640] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[29Nov2024 01:51:04.640] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[29Nov2024 01:51:04.641] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[29Nov2024 01:51:04.733] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[29Nov2024 01:51:04.736] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[29Nov2024 01:51:04.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
+[29Nov2024 01:51:04.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sleeping_bags] Starting version check at https://maxhenkel.de/update/sleeping_bags.json
+[29Nov2024 01:51:04.774] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[29Nov2024 01:51:04.779] [modloading-worker-2/WARN] [supertools/]: FMLCommonSetupEvent
+[29Nov2024 01:51:04.959] [modloading-worker-1/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[29Nov2024 01:51:04.970] [Thread-7/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Starting version check at https://maxanier.de/projects/vampirism/versions.json
+[29Nov2024 01:51:05.078] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for camels:camel, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.100] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:common_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.100] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:snow_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.101] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:pink_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.101] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:cloud_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.101] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:rock_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.101] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:crystal_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.102] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:glow_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.102] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:creeper_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.102] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:camo_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.103] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:diamond_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.103] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:lava_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.103] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for slimier-slimes:obsidian_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.131] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:creeper_minion, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.131] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:endersoul_clone, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.132] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_creeper, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.133] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_enderman, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.133] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_skeleton, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.134] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_snow_golem, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.134] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_zombie, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.135] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:spider_pig, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.140] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for guardvillagers:guard, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.147] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dragonmounts:aether_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.147] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dragonmounts:ender_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.148] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dragonmounts:fire_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.148] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dragonmounts:forest_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.148] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dragonmounts:ghost_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.148] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dragonmounts:ice_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.148] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dragonmounts:nether_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.148] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dragonmounts:water_dragon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.149] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_fish, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.150] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:dragonfly, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.150] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:shadow_walker, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.150] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_slime, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.150] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:cubozoa, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.150] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:silk_moth, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.343] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:bluejay, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.344] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:booby, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.345] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:budgerigar, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.345] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:cardinal, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.346] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:cassowary, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.347] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:cockatoo, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.348] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:crane, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.348] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:duck, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.350] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:flamingo, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.350] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:gouldianfinch, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.351] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:gull, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.352] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:heron, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.353] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:hummingbird, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.354] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:kingfisher, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.355] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:kiwi, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.355] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:kookaburra, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.356] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:lyrebird, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.357] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:macaw, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.358] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:magpie, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.358] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:ostrich, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.359] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:owl, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.360] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:peafowl, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.360] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:pelican, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.361] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:penguin, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.362] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:pigeon, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.362] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:roadrunner, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.363] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:robin, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.363] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:swan, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.364] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:toucan, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.365] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:woodpecker, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.432] [main/INFO] [journeymap/]: Initializing Packet Registries
+[29Nov2024 01:51:05.477] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for outer_end:spectrafly, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.477] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for outer_end:purpur_golem, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.477] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for outer_end:himmelite, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.477] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.passive.BeeEntity from class blueduck.outerend.entities.StalkerEntity
+[29Nov2024 01:51:05.478] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for outer_end:stalker, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.478] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for outer_end:entombed, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.480] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for outer_end:chorus_squid, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.593] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:desert_golem, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.594] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:ancient_desert_golem, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.596] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:scorpion, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.597] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:deep_crowler, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.598] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:black_scorpion, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.598] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:cobold_miner, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.599] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:driedone, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.599] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:frozen_crab, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.600] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:gryllotalpa, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.600] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evolved_rpg:whisp, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.634] [main/INFO] [Puzzles Lib/]: Loading 1 element during common setup...
+[29Nov2024 01:51:05.696] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[29Nov2024 01:51:05.697] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Starting version check at https://raw.githubusercontent.com/yungnickyoung/YUNGs-Better-Caves/1.16/versions.json
+[29Nov2024 01:51:05.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Found status: BETA Current: 1.16.4-1.1.2 Target: null
+[29Nov2024 01:51:05.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[29Nov2024 01:51:05.715] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: OUTDATED Current: 1.2.5 Target: 1.2.6
+[29Nov2024 01:51:05.715] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[29Nov2024 01:51:05.721] [main/INFO] [de.teamlapen.vampirism.core.ModFeatures/]: Replacing vanilla village structure separation settings for the overworld dimension preset
+[29Nov2024 01:51:05.730] [main/INFO] [Puzzles Lib/]: Loading 1 element during server setup...
+[29Nov2024 01:51:05.794] [modloading-worker-1/INFO] [com.magistuarmory.KnightlyArmory/]: Got IMC []
+[29Nov2024 01:51:05.866] [modloading-worker-2/INFO] [TerraForged/]: Loaded TerraForged version 0.2.15
+[29Nov2024 01:51:05.869] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Attempting to register unregistered biomes to the biome dictionary. This can be disabled via config.
+[29Nov2024 01:51:05.894] [modloading-worker-2/INFO] [Waila/]: Registered plugin at net.blay09.mods.cookingforblockheads.compat.WailaAddon
+[29Nov2024 01:51:05.897] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:foliaath, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.897] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:baby_foliaath, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.898] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:ferrous_wroughtnaut, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.898] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoana, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.898] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoaya, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.898] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoan_player, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.898] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoa_sunblocker_player, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.898] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoan_barakoana, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.898] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoa_sunblocker, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.899] [modloading-worker-1/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoaVillager from class com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarako
+[29Nov2024 01:51:05.899] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barako, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.899] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:frostmaw, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.899] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:naga, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.899] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:lantern, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.900] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:grottol, use EntityAttributeCreationEvent instead.
+[29Nov2024 01:51:05.912] [modloading-worker-1/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[29Nov2024 01:51:05.919] [modloading-worker-2/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[29Nov2024 01:51:05.924] [modloading-worker-2/INFO] [Waila/]: Registered plugin at shetiphian.core.internal.modintegration.jade.JadePlugin
+[29Nov2024 01:51:05.943] [modloading-worker-2/INFO] [Waila/]: Registered plugin at de.maxhenkel.camera.integration.waila.PluginCamera
+[29Nov2024 01:51:05.945] [modloading-worker-2/INFO] [Waila/]: Registered plugin at bl4ckscor3.mod.globalxp.compat.WailaDataProvider
+[29Nov2024 01:51:05.953] [modloading-worker-2/INFO] [Waila/]: Registered plugin at com.ferreusveritas.dynamictrees.compat.waila.WailaCompat
+[29Nov2024 01:51:05.955] [modloading-worker-2/INFO] [Waila/]: Registered plugin at net.blay09.mods.waystones.compat.WailaProvider
+[29Nov2024 01:51:05.962] [modloading-worker-2/INFO] [Waila/]: Registered plugin at com.teammetallurgy.atum.integration.waila.WailaSupport
+[29Nov2024 01:51:05.967] [modloading-worker-2/INFO] [Waila/]: Registered plugin at blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
+[29Nov2024 01:51:05.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 3.2.1.196 Target: 3.2.1.308
+[29Nov2024 01:51:05.972] [modloading-worker-2/INFO] [Waila/]: Registered plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[29Nov2024 01:51:05.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[29Nov2024 01:51:05.977] [modloading-worker-2/INFO] [Waila/]: Registered plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[29Nov2024 01:51:05.980] [modloading-worker-2/INFO] [Waila/]: Registered plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[29Nov2024 01:51:05.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: OUTDATED Current: 1.0.2 Target: 1.1.1
+[29Nov2024 01:51:05.981] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sworddisplay] Starting version check at https://raw.githubusercontent.com/sokratis12GR/Sword-Displays/master/sworddisplay-updater.json
+[29Nov2024 01:51:06.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sworddisplay] Found status: UP_TO_DATE Current: 1.16.5-1.2.0 Target: null
+[29Nov2024 01:51:06.087] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.16.x/update.json
+[29Nov2024 01:51:06.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: NONE Target: null
+[29Nov2024 01:51:06.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[29Nov2024 01:51:06.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: OUTDATED Current: 1.0.5 Target: 3.0.0
+[29Nov2024 01:51:06.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwtrpdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/trapdoors.json
+[29Nov2024 01:51:06.200] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwtrpdoors] Found status: OUTDATED Current: 1.0.1 Target: 1.1.3
+[29Nov2024 01:51:06.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gaiadimension] Starting version check at https://raw.githubusercontent.com/Andromander/Gaia-Dimension/1.16.x/update.json
+[29Nov2024 01:51:06.259] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gaiadimension] Found status: AHEAD Current: 1.3.3 Target: null
+[29Nov2024 01:51:06.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://maxhenkel.de/update/camera.json
+[29Nov2024 01:51:06.736] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:lush_smaragdant_cave to structure_gel:[]
+[29Nov2024 01:51:06.736] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:enchanted_forest to structure_gel:[]
+[29Nov2024 01:51:06.737] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:sulphur_springs to structure_gel:[]
+[29Nov2024 01:51:06.737] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:taiga_scrub to structure_gel:[]
+[29Nov2024 01:51:06.737] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:mushroom_forest to structure_gel:[]
+[29Nov2024 01:51:06.737] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:limestone_mountains to structure_gel:[]
+[29Nov2024 01:51:06.737] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:frostfields to structure_gel:[]
+[29Nov2024 01:51:06.737] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:highlands to structure_gel:[]
+[29Nov2024 01:51:06.737] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:smoldering_bog to structure_gel:[]
+[29Nov2024 01:51:06.738] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:cold_steppe to structure_gel:[]
+[29Nov2024 01:51:06.738] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:frozen_lake to structure_gel:[]
+[29Nov2024 01:51:06.738] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:sand_hills to structure_gel:[]
+[29Nov2024 01:51:06.738] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:lantern_woods to structure_gel:[]
+[29Nov2024 01:51:06.738] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:pink_agate_forest to structure_gel:[]
+[29Nov2024 01:51:06.738] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:blue_agate_taiga to structure_gel:[]
+[29Nov2024 01:51:06.740] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:savanna_scrub to structure_gel:[]
+[29Nov2024 01:51:06.740] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:foggy_mushroomland to structure_gel:[]
+[29Nov2024 01:51:06.741] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:warm_beach to structure_gel:[]
+[29Nov2024 01:51:06.741] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:wigglewood_forest to structure_gel:[]
+[29Nov2024 01:51:06.742] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:flower_plains to structure_gel:[]
+[29Nov2024 01:51:06.742] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:fir_forest to structure_gel:[]
+[29Nov2024 01:51:06.743] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:limestone_crags to structure_gel:[]
+[29Nov2024 01:51:06.743] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:mutant_agate_wildwood to structure_gel:[]
+[29Nov2024 01:51:06.744] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:lake to structure_gel:[]
+[29Nov2024 01:51:06.744] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:dense_forest to structure_gel:[]
+[29Nov2024 01:51:06.745] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:mushroom_bog to structure_gel:[]
+[29Nov2024 01:51:06.745] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:sparse_woods to structure_gel:[]
+[29Nov2024 01:51:06.746] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:forest to structure_gel:[]
+[29Nov2024 01:51:06.746] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:barren_abyss to structure_gel:[]
+[29Nov2024 01:51:06.747] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:fossil_woodland to structure_gel:[]
+[29Nov2024 01:51:06.747] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:thornlands to structure_gel:[]
+[29Nov2024 01:51:06.748] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:swamp to structure_gel:[]
+[29Nov2024 01:51:06.748] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:dried_river to structure_gel:[]
+[29Nov2024 01:51:06.749] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:dead_oasis to structure_gel:[]
+[29Nov2024 01:51:06.749] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:smog_spires to structure_gel:[]
+[29Nov2024 01:51:06.750] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:sand_plains to structure_gel:[]
+[29Nov2024 01:51:06.750] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:clearing to structure_gel:[]
+[29Nov2024 01:51:06.751] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:dust_wastelands to structure_gel:[]
+[29Nov2024 01:51:06.752] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:oak_savannah to structure_gel:[]
+[29Nov2024 01:51:06.753] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:dark_forest to structure_gel:[]
+[29Nov2024 01:51:06.753] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:dry_shrubland to structure_gel:[]
+[29Nov2024 01:51:06.754] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered outer_end:azure_forest to structure_gel:[]
+[29Nov2024 01:51:06.754] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:megalake to structure_gel:[]
+[29Nov2024 01:51:06.755] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered nefdecomod:battlefield to structure_gel:[]
+[29Nov2024 01:51:06.756] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered infernalexp:glowstone_canyon to structure_gel:[]
+[29Nov2024 01:51:06.756] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:frozen_marsh to structure_gel:[]
+[29Nov2024 01:51:06.757] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:snowy_fir_forest to structure_gel:[]
+[29Nov2024 01:51:06.757] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:megalake_grove to structure_gel:[]
+[29Nov2024 01:51:06.758] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:static_wasteland to structure_gel:[]
+[29Nov2024 01:51:06.758] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:shattered_savanna_scrub to structure_gel:[]
+[29Nov2024 01:51:06.758] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:dense_woods to structure_gel:[]
+[29Nov2024 01:51:06.758] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:volcanic_lands to structure_gel:[]
+[29Nov2024 01:51:06.758] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:bryce to structure_gel:[]
+[29Nov2024 01:51:06.758] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:purple_agate_swamp to structure_gel:[]
+[29Nov2024 01:51:06.758] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:umbrella_jungle to structure_gel:[]
+[29Nov2024 01:51:06.758] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:crystal_plains to structure_gel:[]
+[29Nov2024 01:51:06.759] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:snowy_taiga_scrub to structure_gel:[]
+[29Nov2024 01:51:06.760] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:fire_swamp to structure_gel:[]
+[29Nov2024 01:51:06.760] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:gronglegrowth to structure_gel:[]
+[29Nov2024 01:51:06.761] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:empty_aurora_cave to structure_gel:[]
+[29Nov2024 01:51:06.761] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:dense_forest to structure_gel:[]
+[29Nov2024 01:51:06.765] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:shadow_forest to structure_gel:[]
+[29Nov2024 01:51:06.766] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:salt_dunes to structure_gel:[]
+[29Nov2024 01:51:06.766] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:shining_grove to structure_gel:[]
+[29Nov2024 01:51:06.766] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:neon_oasis to structure_gel:[]
+[29Nov2024 01:51:06.767] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:stream to structure_gel:[]
+[29Nov2024 01:51:06.767] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:mineral_reservoir to structure_gel:[]
+[29Nov2024 01:51:06.768] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:empty_end_cave to structure_gel:[]
+[29Nov2024 01:51:06.770] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:marshland to structure_gel:[]
+[29Nov2024 01:51:06.771] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:cold_marshland to structure_gel:[]
+[29Nov2024 01:51:06.771] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:lush_aurora_cave to structure_gel:[]
+[29Nov2024 01:51:06.772] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:lake to structure_gel:[]
+[29Nov2024 01:51:06.772] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:chorus_forest to structure_gel:[]
+[29Nov2024 01:51:06.773] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered vampirism:vampire_forest_hills to structure_gel:[]
+[29Nov2024 01:51:06.773] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:amber_land to structure_gel:[]
+[29Nov2024 01:51:06.774] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:sand_dunes to structure_gel:[]
+[29Nov2024 01:51:06.774] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:forgotten_field to structure_gel:[]
+[29Nov2024 01:51:06.775] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:mineral_river to structure_gel:[]
+[29Nov2024 01:51:06.775] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:stone_forest to structure_gel:[]
+[29Nov2024 01:51:06.776] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:goldstone_lands to structure_gel:[]
+[29Nov2024 01:51:06.776] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:firefly_forest to structure_gel:[]
+[29Nov2024 01:51:06.777] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:spooky_forest to structure_gel:[]
+[29Nov2024 01:51:06.777] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered terraforged:steppe to structure_gel:[]
+[29Nov2024 01:51:06.778] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:dragon_graveyards to structure_gel:[]
+[29Nov2024 01:51:06.778] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:empty_smaragdant_cave to structure_gel:[]
+[29Nov2024 01:51:06.779] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:glacier to structure_gel:[]
+[29Nov2024 01:51:06.779] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:glowing_grasslands to structure_gel:[]
+[29Nov2024 01:51:06.779] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered gaiadimension:green_agate_jungle to structure_gel:[]
+[29Nov2024 01:51:06.780] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered vampirism:vampire_forest to structure_gel:[]
+[29Nov2024 01:51:06.780] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:final_plateau to structure_gel:[]
+[29Nov2024 01:51:06.781] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered outer_end:crystal_crag to structure_gel:[]
+[29Nov2024 01:51:06.781] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:blossoming_spires to structure_gel:[]
+[29Nov2024 01:51:06.781] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:painted_mountains to structure_gel:[]
+[29Nov2024 01:51:06.782] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:crystal_mountains to structure_gel:[]
+[29Nov2024 01:51:06.782] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:dark_forest_center to structure_gel:[]
+[29Nov2024 01:51:06.783] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:dense_mushroom_forest to structure_gel:[]
+[29Nov2024 01:51:06.783] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered twilightforest:snowy_forest to structure_gel:[]
+[29Nov2024 01:51:06.783] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:smogstem_forest to structure_gel:[]
+[29Nov2024 01:51:06.784] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered atum:oasis to structure_gel:[]
+[29Nov2024 01:51:06.784] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Registered betterendforge:ice_starfield to structure_gel:[]
+[29Nov2024 01:51:06.785] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:tower
+[29Nov2024 01:51:06.786] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:bigger_dungeon
+[29Nov2024 01:51:06.787] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:leviathan
+[29Nov2024 01:51:06.787] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:snowy_temple
+[29Nov2024 01:51:06.788] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:end_ruins
+[29Nov2024 01:51:06.789] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:warped_garden
+[29Nov2024 01:51:06.789] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:soul_prison
+[29Nov2024 01:51:06.790] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for conjurer_illager:theatre
+[29Nov2024 01:51:06.790] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for farlanders:small_house
+[29Nov2024 01:51:06.791] [modloading-worker-3/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for farlanders:farlander_village
+[29Nov2024 01:51:06.795] [main/INFO] [de.teamlapen.vampirism.core.ModFeatures/]: Replacing vanilla village structure separation settings for the overworld dimension preset
+[29Nov2024 01:51:06.867] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[29Nov2024 01:51:06.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillaarmor] Starting version check at https://raw.githubusercontent.com/MelanX/mod-updatechecker-files/master/morevanillaarmor.json
+[29Nov2024 01:51:06.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillaarmor] Found status: BETA Current: 1.16.4-1.2.6 Target: 1.2.3
+[29Nov2024 01:51:06.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[29Nov2024 01:51:06.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: OUTDATED Current: 2.0.1 Target: 3.3.0
+[29Nov2024 01:51:06.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Starting version check at https://raw.githubusercontent.com/talhanation/Ship-Mod/main/update.json
+[29Nov2024 01:51:06.945] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 10 column 4 path $.
+	at com.google.gson.Gson.fromJson(Gson.java:902) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:193) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 10 column 4 path $.
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:491) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:184) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	... 6 more
+[29Nov2024 01:51:06.948] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[29Nov2024 01:51:07.132] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: OUTDATED Current: 1.16.5-0.10.0 Target: 1.16.5-0.10.5
+[29Nov2024 01:51:07.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkpaintings] Starting version check at https://updates.blamejared.com/get?n=darkpaintings&gv=1.16.5
+[29Nov2024 01:51:07.483] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkpaintings] Found status: BETA_OUTDATED Current: 6.0.1 Target: 6.0.11
+[29Nov2024 01:51:07.484] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Starting version check at http://changelogs.moddinglegacy.com/miners-helmet.json
+[29Nov2024 01:51:07.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Found status: BETA Current: 2.0.1 Target: null
+[29Nov2024 01:51:07.674] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [conjurer_illager] Starting version check at http://changelogs.moddinglegacy.com/conjurer-illager.json
+[29Nov2024 01:51:07.873] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [conjurer_illager] Found status: BETA Current: 1.0.13 Target: null
+[29Nov2024 01:51:07.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[29Nov2024 01:51:08.436] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA_OUTDATED Current: 1.6.0 Target: 1.7.3
+[29Nov2024 01:51:08.437] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [oresabovediamonds] Starting version check at https://raw.githubusercontent.com/Squidsword/OresAboveDiamonds/1.16.4/update.json
+[29Nov2024 01:51:08.580] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [oresabovediamonds] Found status: OUTDATED Current: 6.4.0 Target: 6.4.1
+[29Nov2024 01:51:08.580] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[29Nov2024 01:51:08.712] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[29Nov2024 01:51:08.713] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [charginggadgets] Starting version check at https://raw.githubusercontent.com/Direwolf20-MC/ChargingGadgets/master/update.json
+[29Nov2024 01:51:08.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [charginggadgets] Found status: BETA Current: 1.3.0 Target: null
+[29Nov2024 01:51:08.722] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additional_lights] Starting version check at https://gist.githubusercontent.com/mgen256/59abe85e7950f2319e7538afe2f910ba/raw
+[29Nov2024 01:51:08.759] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[29Nov2024 01:51:08.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mininggadgets] Starting version check at https://raw.githubusercontent.com/Direwolf20-MC/MiningGadgets/master/update.json
+[29Nov2024 01:51:08.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mininggadgets] Found status: OUTDATED Current: 1.7.5 Target: 1.7.6
+[29Nov2024 01:51:08.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Nov2024 01:51:08.986] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[29Nov2024 01:51:08.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.16.5/changelog.json
+[29Nov2024 01:51:09.010] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: OUTDATED Current: 1.16.5-5.0.6-141 Target: 1.16.5-5.1.0-148
+[29Nov2024 01:51:09.011] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
+[29Nov2024 01:51:09.644] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[29Nov2024 01:51:09.645] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lava_monster] Starting version check at http://changelogs.moddinglegacy.com/lava-monsters.json
+[29Nov2024 01:51:09.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lava_monster] Found status: BETA Current: 1.0.9 Target: null
+[29Nov2024 01:51:09.861] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corail_recycler] Starting version check at https://raw.githubusercontent.com/Corail31/recycler/master/update.json
+[29Nov2024 01:51:09.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corail_recycler] Found status: OUTDATED Current: 5.0.0 Target: 5.2.1
+[29Nov2024 01:51:09.897] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[29Nov2024 01:51:09.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: v1.9.10.1 Target: v1.9.11
+[29Nov2024 01:51:09.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[29Nov2024 01:51:10.004] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: OUTDATED Current: 3.3.0 Target: 3.4.1
+[29Nov2024 01:51:10.004] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://maxanier.de/projects/vampirism/versions.json
+[29Nov2024 01:51:10.108] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[29Nov2024 01:51:10.109] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[29Nov2024 01:51:10.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 1.0.15 Target: null
+[29Nov2024 01:51:10.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [farlanders] Starting version check at http://changelogs.moddinglegacy.com/the-farlanders.json
+[29Nov2024 01:51:10.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [farlanders] Found status: UP_TO_DATE Current: 1.3.9 Target: null
+[29Nov2024 01:51:17.791] [main/INFO] [Dungeon Crawl/]: Loading /workspaces/server/servidor_minecraft/config/DungeonCrawl/config.json
+[29Nov2024 01:51:17.804] [main/INFO] [Dungeon Crawl/]: Loading /workspaces/server/servidor_minecraft/config/DungeonCrawl/loot/specialItemTags.json
+[29Nov2024 01:51:17.814] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: tower structure feature registered
+[29Nov2024 01:51:17.815] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: ice_tower structure feature registered
+[29Nov2024 01:51:17.816] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: jungle_tower structure feature registered
+[29Nov2024 01:51:17.817] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: derelict_tower structure feature registered
+[29Nov2024 01:51:17.817] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: derelict_grass_tower structure feature registered
+[29Nov2024 01:51:17.818] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: ocean_tower structure feature registered
+[29Nov2024 01:51:17.819] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: ocean_warm_tower structure feature registered
+[29Nov2024 01:51:18.355] [main/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "rhodonite:block_ore_rhodonite"
+[29Nov2024 01:51:19.251] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29Nov2024 01:51:19.333] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
+net.minecraft.server.SessionLockManager$AlreadyLockedException: /workspaces/server/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.server.SessionLockManager$AlreadyLockedException.func_233000_a_(SourceFile:98) ~[?:?]
+	at net.minecraft.server.SessionLockManager.func_232998_a_(SourceFile:44) ~[?:?]
+	at net.minecraft.world.storage.SaveFormat$LevelSave.<init>(SaveFormat.java:277) ~[?:?]
+	at net.minecraft.world.storage.SaveFormat.func_237274_c_(SaveFormat.java:265) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37) ~[forge-1.16.5-36.2.42.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43) [forge-1.16.5-36.2.42.jar:?]
