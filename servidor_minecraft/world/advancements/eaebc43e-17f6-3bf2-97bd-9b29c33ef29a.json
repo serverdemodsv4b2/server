@@ -617,6 +617,12 @@
     },
     "done": true
   },
+  "extcaves:caves/mushroom_rockshroom": {
+    "criteria": {
+      "get_mushroom": "2024-11-29 02:34:52 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_purple_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
@@ -2499,6 +2505,12 @@
   "ironchest:recipes/ironchest/chests/diamond_crystal_chest": {
     "criteria": {
       "has_glass": "2024-11-26 03:56:29 +0000"
+    },
+    "done": true
+  },
+  "extcaves:caves/skeleton_warrior": {
+    "criteria": {
+      "get_item": "2024-11-29 02:36:30 +0000"
     },
     "done": true
   },
@@ -5583,6 +5595,12 @@
     },
     "done": true
   },
+  "extcaves:recipes/stew_hard": {
+    "criteria": {
+      "has_item": "2024-11-29 02:34:52 +0000"
+    },
+    "done": true
+  },
   "smallships:recipes/lotr_green_oak_galley": {
     "criteria": {
       "in_water": "2024-11-26 03:06:21 +0000"
@@ -6167,6 +6185,12 @@
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-11-27 23:51:52 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/kangaroo": {
+    "criteria": {
+      "killed": "2024-11-29 02:40:13 +0000"
     },
     "done": true
   },
