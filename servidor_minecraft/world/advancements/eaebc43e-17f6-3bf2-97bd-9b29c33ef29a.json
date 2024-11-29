@@ -1500,6 +1500,12 @@
     },
     "done": true
   },
+  "vampirism:hunter/betrayal": {
+    "criteria": {
+      "kill": "2024-11-29 03:27:01 +0000"
+    },
+    "done": false
+  },
   "mcwfurnitures:recipes/warped/warped_dresser_11": {
     "criteria": {
       "has_planks": "2024-11-28 23:59:29 +0000"
@@ -2087,6 +2093,12 @@
     },
     "done": true
   },
+  "vampirism:recipes/vampirism/vampire/vampire_clothing_hat": {
+    "criteria": {
+      "has_heart": "2024-11-29 03:27:05 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/vampirism/general/tombstone2": {
     "criteria": {
       "has_stone": "2024-11-26 03:03:38 +0000"
@@ -2252,6 +2264,12 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2024-11-28 00:57:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2024-11-29 03:24:07 +0000"
     },
     "done": true
   },
@@ -4218,6 +4236,12 @@
     },
     "done": true
   },
+  "vampirism:recipes/vampirism/vampire/vampire_clothing_boots": {
+    "criteria": {
+      "has_heart": "2024-11-29 03:27:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2024-11-26 02:59:30 +0000"
@@ -4900,6 +4924,7 @@
     "criteria": {
       "deep_bayou": "2024-11-27 23:26:17 +0000",
       "bayou_mangrove": "2024-11-27 23:26:30 +0000",
+      "redwood_forest_edge": "2024-11-29 03:25:15 +0000",
       "bayou": "2024-11-27 23:27:04 +0000",
       "highland": "2024-11-26 02:41:52 +0000",
       "grove_clearing": "2024-11-26 03:10:12 +0000",
@@ -7298,6 +7323,12 @@
   "mcwfurnitures:recipes/warped/warped_dresser_9": {
     "criteria": {
       "has_planks": "2024-11-28 23:59:29 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/vampirism/vampire/vampire_clothing_legs": {
+    "criteria": {
+      "has_heart": "2024-11-29 03:27:05 +0000"
     },
     "done": true
   },
